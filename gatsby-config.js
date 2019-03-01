@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Dashwork',
     author: 'Ram Ratan Maurya',
-    description: 'A starter blog demonstrating what Gatsby can do.',
+    description: 'We are a team of passionate designers and developers, making useful tools for the web.',
     siteUrl: 'https://dashwork.io/',
   },
   pathPrefix: '/gatsby-starter-blog',
