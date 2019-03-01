@@ -1,10 +1,7 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
-import Helmet from 'react-helmet'
-
-import { rhythm } from '../utils/typography'
-
+import Link from 'gatsby-link';
+import get from 'lodash/get';
+import React from 'react';
+import Helmet from 'react-helmet';
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
@@ -49,6 +46,8 @@ class BlogIndex extends React.Component {
             <strong>How can I contact you?</strong>{' '}
             If you'd like to say hi, feel free to send us a tweet over at <a href="https://twitter.com/dashworkio">@dashworkio‏</a>.
           </p>
+
+          <h3>Check our <Link to="/projects">Projects</Link>.</h3>
         </section>
 
         <p style={{ textAlign: 'center', marginTop: '2em' }}>👋</p>
